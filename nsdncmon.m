@@ -49,7 +49,7 @@ void logNotification(NSNotification* notification) {
     return self;
 }
 -(void) receiveNotification: (NSNotification*) notification {
-    fprintf(stderr,"addObserver:FOUND...\n");
+    fprintf(stderr,"\r\n\r\naddObserver:FOUND...\r\n");
     logNotification(notification);
 }
 @end
