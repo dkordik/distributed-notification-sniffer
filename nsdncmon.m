@@ -12,7 +12,7 @@
 -(void) receiveNotification: (NSNotification*) notification;
 @end
 
-NSString *const NAME = @"com.spotify.client.PlaybackStateChanged";
+NSString *const NAME = nil;//@"com.spotify.client.PlaybackStateChanged";
 
 void logNotification(NSNotification* notification) {
     NSLog(@"\r\n"
